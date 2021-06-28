@@ -1,24 +1,42 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# テーブル設計
 
-Things you may want to cover:
+##usersテーブル
 
-* Ruby version
+| Column                      | Type        | Options                        |
+| --------------------------- | ----------- | ------------------------------ |
+| nickname                    | string      | null: false                    |
+| email                       | string      | null: false                    |
+| encrypted_password          | string      | null: false                    |
+| tennis_year                 | integer     | null: false                    |
+##Association
+-has_many   :coats
+-has_many   :comments
 
-* System dependencies
+##coatsテーブル
 
-* Configuration
+| Column                      | Type        | Options                        |
+| --------------------------- | ----------- | ------------------------------ |
+| name                        | string      | null: false                    |
+| info                        | text        | null: false                    |
+| start_time_id               | integer     | null: false                    |
+| finish_time_id              | integer     | null: false                    |
+| number_id                   | integer     | null: false                    |
+| address                     | string      | null: false                    |
+| user                        | references  | null: false, foreign_key: true |
+##Association
+-belongs_to :user
+-has_many   :comment
 
-* Database creation
+##commentsテーブル
 
-* Database initialization
+| Column                      | Type        | Options                        |
+| --------------------------- | ----------- | ------------------------------ |
+| text                        | text        | null: false                    |
+| user                        | references  | null: false, foreign_key: true |
+| coat                        | references  | null: false, foreign_key: true |
+###  Association
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-belongs_to :user
+-belongs_to :coat
