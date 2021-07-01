@@ -1,0 +1,79 @@
+#home {
+  background-image: image-url("top.png");
+  min-height: 70vh;
+  
+}
+li,ul, {
+  list-style: none;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.top-img {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+}
+
+
+// 下記はヘッダー部分
+.top-header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.heading {
+ padding: 10px 30px;
+ color: white;
+}
+
+.navbar {
+  width: 50%;
+  padding: 20px;
+}
+
+.nav-lists {
+  display: flex;
+  justify-content: center;
+  padding: 0 50px;
+}
+.login {
+  padding-right: 50px;
+}
+
+
+
+// 下記はメイン
+.main {
+ padding: 10px 10px;
+}
+
+.title-contents {
+  height: 90vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+
+.sav-title {
+  color: #e6f0f0;
+ 
+
+}
