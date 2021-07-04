@@ -25,11 +25,19 @@ h1,h2,h3,h4,h5,h6,p {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-
+  width: 85vw;
+  margin-left: 165px;
+  padding: 10px
 }
 
 
 // 下記はヘッダー部分
+
+.main-home {
+  background-color: #e6f0f0;
+  display: flex;
+  flex-direction: column;
+}
 .top-header {
   display: flex;
   height: 70px;
@@ -38,8 +46,10 @@ h1,h2,h3,h4,h5,h6,p {
   padding-top: 40px;
 }
 .heading {
- padding: 10px 70px;
+ padding: 10px 50px;
  color: white;
+ background-color: #dddddd;
+ transform: skewY(-10deg);
 }
 
 .navbar {
@@ -79,5 +89,4 @@ h1,h2,h3,h4,h5,h6,p {
 .sav-title {
   color: #e6f0f0;
  
-
 }
