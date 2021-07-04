@@ -23,6 +23,7 @@
 | start_time_id               | integer     | null: false                    |
 | finish_time_id              | integer     | null: false                    |
 | number_id                   | integer     | null: false                    |
+| prefecture_id               | integer     | null: false                    |
 | address                     | string      | null: false                    |
 | user                        | references  | null: false, foreign_key: true |
 ##Association
