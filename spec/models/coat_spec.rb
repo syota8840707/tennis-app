@@ -15,11 +15,9 @@ RSpec.describe Coat, type: :model do
         @coat.finish_time_id = 4
         @coat.number_id = 5
         expect(@coat).to be_valid
-      end  
-
-
+      end
     end
-    context '新規投稿できない場合'
+    context '新規投稿できない場合' do
       it 'imageがなければ投稿出来ない' do
         @coat.image = nil
         @coat.valid?
@@ -38,7 +36,7 @@ RSpec.describe Coat, type: :model do
       it 'prefectureがなければ投稿出来ない' do
         @coat.prefecture_id = nil
         @coat.valid?
-        expect(@coat.errors.full_messages).to include('Prefectuer のセレクタから選択して下さい')
+        expect(@coat.errors.full_messages).to include('Prefecture のセレクタから選択して下さい')
       end
       it 'prefectureのid1が選択されると投稿出来ない' do
         @coat.prefecture_id = 1
@@ -85,7 +83,6 @@ RSpec.describe Coat, type: :model do
         @coat.valid?
         expect(@coat.errors.full_messages).to include('Number のセレクタから選択して下さい')
       end
- 
     end
-  end      
+  end
 end
