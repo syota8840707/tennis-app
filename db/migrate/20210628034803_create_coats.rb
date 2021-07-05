@@ -9,7 +9,7 @@ class CreateCoats < ActiveRecord::Migration[6.0]
       t.integer :finish_time_id, null: false
       t.integer :number_id,      null: false
       t.text :info,              null: false
-      t.references :user,        null: false, foreign_key: false
+      t.references :user,        null: false,  foreign_key: false
       t.timestamps
     end
   end

@@ -21,7 +21,9 @@
   padding: 2vh 0;
   flex-direction: column;
 }
-
+.hidden{
+  display: none;
+}
 /* コートメイン */
 .coats-contents{
   font-size: 14px;

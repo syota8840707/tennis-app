@@ -15,7 +15,7 @@ class Number < ActiveHash::Base
     { id: 13, name: '13面' },
     { id: 14, name: '14面' },
     { id: 15, name: '15面' }
-]
+  ]
 
   include ActiveHash::Associations
   has_many :coats

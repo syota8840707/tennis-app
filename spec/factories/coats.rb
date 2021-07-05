@@ -8,6 +8,7 @@ FactoryBot.define do
     finish_time_id { 3 }
     number_id      { 9 }
     info           { 'かかかかかか' }
+    association :user
     after(:build) do |coat|
       coat.image.attach(io: File.open('public/images/test_image.png'), filename: 'test_image.png')
     end
