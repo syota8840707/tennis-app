@@ -19,6 +19,9 @@ class CoatsController < ApplicationController
     end
   end
 
+  def show
+  end
+
   private
 
   def coat_params
