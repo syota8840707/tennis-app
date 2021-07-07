@@ -1,0 +1,143 @@
+.show-body {
+  /* background-color: #e6f0f0; */
+}
+
+.show-header {
+  background-color: #e6f0f0;
+  height: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+    top: 0;
+}
+
+.show-hesder-title {
+ font-size: 20px;
+ width: 20%;
+ padding: 0 10px;
+ color: yellow;
+ background-color: #e6f0f0;
+ transform: skewY(352deg);
+ position: absolute; top: 12px; left: 50px;
+}
+
+.show-header-contents {
+  font-size: 30px;
+  margin-left: 20%;
+}
+
+.show-header-list {
+  margin-left: 100px;
+}
+/* 下記はmain部分 */
+.show-main {
+  height: 80vh;
+  background-color: #e6f0f0;
+  margin: 20px;
+  display: flex;
+}
+.main-left {
+  width: 50%;
+  margin: 5px;
+  background-color: white;
+}
+.show-image {
+height: 65%;
+}
+.show-image-tag {
+ height: 100%;
+ width: 100%;
+}
+
+
+.show-coment {
+padding-top: 5px;   
+height: 35%
+}
+/* 下記はmain-rightの部分 */
+.main-right {
+  width: 50%;
+  margin: 5px;
+  background-color: white;
+}
+
+.main-right-top {
+  height: 60%;
+  display: flex;
+}
+
+.show-list {
+  padding: 10px;
+  width: 80%;
+}
+.show-list-top {
+  font-size: 26px;
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.show-list-sav {
+  font-size: 18px;
+   margin: 20px 0 5px 50px;
+}
+
+.show-sideber {
+  width: 20%;
+}
+
+.side-map {
+  background-color: #e1eec1;
+  height: 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-list {
+  background-color: #e1eec1;
+  height: 50px;
+  margin-top: 50px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-info {
+  background-color: #e1eec1;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-title {
+  font-size: 20px;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.info-content {
+  font-size: 14px;
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.sideber-js {
+  background-color: #e1eec1;
+  position: absolute;
+  top: 275px; right: 131px;
+}
+
+.side-list-js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}

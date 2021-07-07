@@ -1,19 +1,20 @@
 <header class="top-header">
   <div class="navbar">
     <% if user_signed_in? %>
-      <%= link_to "👤 #{current_user.nickname}", "", class: "top-nickname" %>
+      <%= link_to "👤 #{current_user.nickname}", "", class: "top-nickname", method: :get %>
     <% else%>
       <div class="top-nickname">👤 未登録ユーザー</div>
     <% end %>
     <div id="nav-left-jp" class="nav-left">
-      表示リスト
+      表示リスト ▽
        <ul class="nav-all-list hidden" id="left-jp">
           <li class="all-list" id="all-list-jp">一覧表示</li>
           <li><%= link_to '地域別表示' "", class: "all-list"%></li>
+          <li><%= link_to 'トップページ', root_path , class: "all-list" %></li>
        </ul>
     </div> 
     <div id="nav-right-jp" class= "nav-right" >
-      ユーザーリスト
+      ユーザーリスト ▽
         <%  if user_signed_in? %>
           <ul class="nav-lists hidden" id="right-jp">
           <li><%= link_to '新規投稿', new_coat_path , class: "all-list" %></li> 

@@ -20,6 +20,7 @@ class CoatsController < ApplicationController
   end
 
   def show
+    @coat = Coat.find(params[:id])
   end
 
   private

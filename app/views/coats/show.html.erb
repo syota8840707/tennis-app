@@ -1,0 +1,16 @@
+<div class="show-body">
+  <div class="show-header">
+    <div class="show-hesder-title">
+      <h1>Tennishare</h1>
+    </div>
+    <div class="show-header-contents">
+       <%= "👤 #{@coat.user.nickname} さんのページ" %>
+    </div>
+    <ul class="show-header-list">
+      <li><%= "テニス歴 #{@coat.user.tennis_year} 年" %></li>
+      <li>投稿件数〜件</li>
+    </ul>
+  </div>
+  <%= render "coats/show" %>
+  
+</div>
