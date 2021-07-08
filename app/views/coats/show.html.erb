@@ -1,0 +1,20 @@
+<div class="show-body">
+  <div class="show-header">
+    <div class="show-hesder-title">
+      <h1>Tennishare</h1>
+    </div>
+    <div class="show-header-contents">
+       <%= "👤 #{@coat.user.nickname} さんのページ" %>
+    </div>
+    <ul class="show-header-list">
+      <li><%= "テニス歴 #{@coat.user.tennis_year} 年" %></li>
+      <li>投稿件数〜件</li>
+    </ul>
+  </div>
+  <%= render "coats/show" %>
+  <div class="map-main hidden" id="map-main-js">
+     <div class="coat-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21983.09611251111!2d139.18975236652892!3d35.37150110546246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019a7fe14ee110f%3A0x47427094161f2d82!2z44Kr44Or44OB44Oj44O844OR44O844Kv!5e0!3m2!1sja!2sjp!4v1625724637389!5m2!1sja!2sjp" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   </div>
+  </div>
+</div>

@@ -5,6 +5,7 @@ window.addEventListener('load', () => {
   const navleftlist = document.getElementById("left-jp")
   const footer = document.getElementById("footer-main")
   const footerlist = document.getElementById("all-list-jp")
+  const footertitle = document.getElementById("footer-card-title")
   
   nav.addEventListener('mouseover', function() {
    navList.setAttribute("style", "display:block;")
@@ -25,7 +26,8 @@ window.addEventListener('load', () => {
   footerlist.addEventListener('click', function() {
    footer.setAttribute("style", "display:flex;")
   })
-  // footerlist.addEventListener('click', function() {
-  //   footer.setAttribute("style", "display:flex;")
+  footertitle.addEventListener('click', function() {
+    footer.setAttribute("style", "display:hidden;")
+  })  
 
 });

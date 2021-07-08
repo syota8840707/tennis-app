@@ -1,0 +1,47 @@
+<div class="show-main">
+    <div class="main-left">
+      <div class="show-image">
+        <%= image_tag @coat.image, class: "show-image-tag" %>
+      </div>
+      <div class="show-coment">
+         コメント機能を追加する
+      </div>
+    </div>
+    <div class="main-right">
+      <div class="main-right-top">
+        <ul class="show-list">
+          <li class="show-list-top"> 🎾  <%= @coat.name %></li>
+          <li class="show-list-sav">  <%= "住所 : #{@coat.prefecture.name}" %><%= @coat.city %><%= @coat.address %></li>
+          <li class="show-list-sav"> <%= "利用可能時間 : #{@coat.start_time.name}" %> ~ <%= @coat.finish_time.name %> </li>
+          <li class="show-list-sav"> <%= "コートの面数 : #{@coat.number.name}" %>
+        </ul>
+        <ul class="show-sideber">
+          <li class="side-map" id="map-js">マップ表示</li>
+          <li class="side-list" id="menu-js">Menu</li>
+        </ul>
+      </div>
+      <div class="show-info">
+        <div class="info-title">
+        ☆ おすすめポイント！！ ☆
+        </div>
+        <div class="info-content">
+          <%= @coat.info %>
+        </div>
+      </div>
+    </div>
+       <%  if user_signed_in? %>
+        <ul class="sideber-js hidden" id="side-js">
+        <li><%= link_to '新規投稿', new_coat_path , class: "side-list-js" %></li> 
+        <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "side-list-js"%></li> 
+        <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>  
+        <li><%= link_to '編集', "" , class: "side-list-js" %></li>
+        <li><%= link_to '削除', "" , class: "side-list-js" %></li> 
+        </ul> 
+      <% else %> 
+        <ul class="sideber-js hidden" id="side-js">
+        <li><%= link_to 'ログイン', new_user_session_path, class: "side-list-js" %></li>
+        <li><%= link_to '新規登録', new_user_registration_path, class: "side-list-js" %></li>
+        <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>
+        </ul>
+      <% end %>
+</div>
