@@ -72,9 +72,9 @@ height: 35%
   width: 80%;
 }
 .show-list-top {
-  font-size: 24px;
+  font-size: 26px;
   display: flex;
-  margin: 10px;
+  margin: 20px;
   align-items: center;
 }
 
@@ -126,7 +126,7 @@ height: 35%
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 15px;
+  padding: 5px 10px;
 }
 
 .sideber-js {

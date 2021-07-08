@@ -101,14 +101,9 @@ padding-bottom: 30px;
 }
 
 .coat-btn {
-  background-color: #dddddd;
-  border-width: 3px;
-  border-style: solid;
-  border-color: black;
+  
 }
 
 .back-btn {
-
-  border-style: outset;
-  background-color: #dddddd;
+  color: black;
 }
