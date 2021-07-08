@@ -1,0 +1,88 @@
+<div class="coats-contents">
+  <div class="coats-main">
+    <h2 class="coats-title">コートの情報を入力</h2>
+    <%= form_with model: @coat, local: true do |f| %>
+
+    <div class="img-upload">
+      <div class="weight-bold-text">
+        コートの写真
+        <span class="indispensable">必須</span>
+      </div>
+      <div class="click-upload">
+        <p>
+          クリックしてファイルをアップロード
+        </p>
+        <%= f.file_field :image, id:"item-image" %>
+      </div>
+    </div>
+    <%# コート情報 %>
+    <div class="new-coats">
+      <div class="weight-bold-text">
+        コート名
+        <span class="indispensable">必須</span>
+    　</div>
+      <%= f.text_area :name, class:"name-text", id:"coat-name", placeholder:"コート名（必須 40文字まで)", maxlength:"40" %>
+    </div>
+    <div class="coats-detail">
+     <div class="weight-bold-text">コートの住所</div>
+      <div class="form-group">
+        <div class='form-text-wrap'>
+          <label class="form-text">都道府県</label>
+          <span class="indispensable">必須</span>
+        </div>
+        <%= f.collection_select(:prefecture_id, Prefecture.all, :id, :name, {}, {class:"select-box", id:"prefecture"}) %>
+      </div>
+      <div class="form-group">
+        <div class='form-text-wrap'>
+          <label class="weight-bold-text">市区町村</label>
+          <span class="indispensable">必須</span>
+        </div>
+        <%= f.text_field :city, class:"input-default", id:"city", placeholder:"例）横浜市緑区"%>
+      </div>
+      <div class="form-group">
+        <div class='form-text-wrap'>
+          <label class="weight-bold-text">番地</label>
+          <span class="indispensable">必須</span>
+        </div>
+        <%= f.text_field :address, class:"input-default", id:"addresses", placeholder:"例）青山1-1-1"%>
+      </div>
+    </div>
+
+    <div class="coats-detail">
+     <div class="weight-bold-text">コートの詳細(時間・面数)</div>
+      <div class="form-group">
+        <div class='form-text-wrap'>
+          <label class="weight-bold-text">利用開始時間</label>
+          <span class="indispensable">必須</span>
+        </div>
+        <%= f.collection_select(:start_time_id, StartTime.all, :id, :name, {}, {class:"select-box", id:"start-time"}) %>
+      </div>  
+            <div class="form-group">
+        <div class='form-text-wrap'>
+          <label class="weight-bold-text">利用終了時間</label>
+          <span class="indispensable">必須</span>
+        </div>
+        <%= f.collection_select(:finish_time_id, FinishTime.all, :id, :name, {}, {class:"select-box", id:"finish-time"}) %>
+      </div>  
+            <div class="form-group">
+        <div class='form-text-wrap'>
+          <label class="weight-bold-text">コート面数</label>
+          <span class="indispensable">必須</span>
+        </div>
+        <%= f.collection_select(:number_id, Number.all, :id, :name, {}, {class:"select-box", id:"number"}) %>
+      </div>  
+    </div> 
+    <div class="coats-explain">
+      <div class="weight-bold-text">
+      コートの説明
+      <span class="indispensable">必須</span>
+      </div>
+      <%= f.text_area :info, class:"coat-text", id:"coat-info", placeholder:"コートの説明　（ユーザーがこのコートで感じたことや、共有したいことを書いて下さい。　※事実と異なる事は書かないようにして下さい。）" ,rows:"7" ,maxlength:"1000" %>
+    </div>
+        <%# /下部ボタン %>
+    <div class="coat-btn-contents">
+      <%= f.submit "投稿する" ,class:"coat-btn" %>
+      <%=link_to 'もどる', root_path, class:"back-btn" %>
+    </div>
+  </div>
+  <% end %>
