@@ -4,6 +4,7 @@
         <%= image_tag @coat.image, class: "show-image-tag" %>
       </div>
       <div class="show-coment">
+         コメント機能を追加する
       </div>
     </div>
     <div class="main-right">
@@ -29,7 +30,7 @@
       </div>
     </div>
        <%  if user_signed_in? %>
-        <ul class="sideber-js" id="side-js">
+        <ul class="sideber-js hidden" id="side-js">
         <li><%= link_to '新規投稿', new_coat_path , class: "side-list-js" %></li> 
         <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "side-list-js"%></li> 
         <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>  
@@ -37,7 +38,7 @@
         <li><%= link_to '削除', "" , class: "side-list-js" %></li> 
         </ul> 
       <% else %> 
-        <ul class="sideber-js" id="side-js">
+        <ul class="sideber-js hidden" id="side-js">
         <li><%= link_to 'ログイン', new_user_session_path, class: "side-list-js" %></li>
         <li><%= link_to '新規登録', new_user_registration_path, class: "side-list-js" %></li>
         <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>
