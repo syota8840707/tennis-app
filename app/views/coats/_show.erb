@@ -35,7 +35,7 @@
         <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "side-list-js"%></li> 
         <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>  
         <li><%= link_to '編集', edit_coat_path , class: "side-list-js" %></li>
-        <li><%= link_to '削除', "" , class: "side-list-js" %></li> 
+        <li><%= link_to '削除', coat_path , method: :delete, class: "side-list-js" %></li> 
         </ul> 
       <% else %> 
         <ul class="sideber-js hidden" id="side-js">

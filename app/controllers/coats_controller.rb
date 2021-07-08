@@ -1,6 +1,7 @@
 class CoatsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :create, :edit, :update]
-  before_action :set_coat, only: [:show, :edit, :update]
+  before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
+  before_action :set_coat, only: [:show, :edit, :update, :destroy]
+  before_action :move_to_index, only: [:edit, :destroy]
   def index
     @costs = Coat.all
     @coats = Coat.order('created_at DESC')
@@ -33,6 +34,11 @@ class CoatsController < ApplicationController
       render :edit
     end
   end
+
+  def destroy
+    @coat.destroy
+    redirect_to root_path
+  end
   private
 
   def coat_params
@@ -41,5 +47,8 @@ class CoatsController < ApplicationController
   end
   def set_coat
     @coat = Coat.find(params[:id])
+  end
+  def move_to_index
+    redirect_to action: :index unless current_user.id == @coat.user_id
   end
 end
