@@ -73,9 +73,9 @@
 
 .actions {
   display: flex;
-  margin: 0 30%;
+  flex-direction: column;
+  margin: 0 auto;
   padding-top: 30px;
-  justify-content: space-around;
 }
 
 
@@ -93,21 +93,6 @@
   width: 50%;
   margin: 0 auto;
   margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.back-new-btn {
-  background-color: #dddddd;
-  margin: 30px 120px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: black;
-  /* position: absolute;
-    top: 75%;
-    left: 48%; */
-
 }
 
 .login-red-btn {
