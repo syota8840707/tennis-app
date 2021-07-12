@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .top-nickname {
- font-size: 20px;
+ font-size: 140%;
  width: 50% ;
 }
 
@@ -82,7 +82,7 @@ width: 25%;
   font-size: 15px;
   background-color: #e6f0f0;
   padding: 10px;
-  position: absolute; top: 100px; right: 166px;
+  position: absolute; top: 14%; right: 14%;
 }
 
 .hidden{
@@ -95,7 +95,7 @@ width: 25%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 30px 0 50%;
+  margin: 0 2% 0 50%;
 }
 
 .nav-lists {
@@ -103,7 +103,7 @@ width: 25%;
   font-size: 15px;
   background-color: #e6f0f0;
   padding: 10px;
-  position: absolute; top: 100px; right: 44px;
+  position: absolute; top: 14%; right: 4%;
 }
 
 .login {
