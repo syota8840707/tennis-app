@@ -5,7 +5,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_many :coats
-  has_many :messeges
+  has_many :messages
 
   with_options presence: true do
     validates :nickname

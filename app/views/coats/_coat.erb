@@ -1,9 +1,9 @@
-   <div class='coats-card' >
+   <div class="coats-card" id="cards-js">
       <div class='coat-img-card'>
         <%= image_tag coat.image, class: "image-card" %>
       </div>
-      <ul class='coat-card-list'>
-       <%= link_to coat_path(coat.id) do %>  
+      <ul class='coat-card-list' id="card-js">
+      <%= link_to coat_path(coat.id) do %>  
         <li class='coat-list'>
           <div class='card-info'>
             <%= coat.name %>
@@ -15,6 +15,6 @@
             <%= "投稿者 #{coat.user.nickname}" %>
           </div>
         </li>
-       <% end %> 
+      <% end %> 
       </ul>
    </div>
