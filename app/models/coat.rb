@@ -7,6 +7,7 @@ class Coat < ApplicationRecord
 
   belongs_to :user
   has_one_attached :image
+  has_many :messages,  dependent: :destroy
 
   with_options presence: true do
     validates :name, :info, :image, :city, :address, :user_id

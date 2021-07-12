@@ -31,11 +31,11 @@
 -belongs_to :user
 -has_many   :comment
 
-##commentsテーブル
+##messagesテーブル
 
 | Column                      | Type        | Options                        |
 | --------------------------- | ----------- | ------------------------------ |
-| text                        | text        | null: false                    |
+| messages                        | text        | null: false                    |
 | user                        | references  | null: false, foreign_key: true |
 | coat                        | references  | null: false, foreign_key: true |
 ###  Association

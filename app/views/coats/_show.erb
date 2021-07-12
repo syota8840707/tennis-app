@@ -4,7 +4,16 @@
         <%= image_tag @coat.image, class: "show-image-tag" %>
       </div>
       <div class="show-coment">
-         コメント機能を追加する
+         <h3>コメント欄</h3>
+          <%= form_with model: @message do |f| %>
+            <%= f.text_field :message, class:"message-text" %>
+            <%= f.submit '送信' %>
+          <% end %>
+          <div id="messages-coat", class="message-coat">
+            <% @messages.reverse_each do |message| %>
+              <p><%= message.message %></p>
+            <% end %>
+          </div>
       </div>
     </div>
     <div class="main-right">
