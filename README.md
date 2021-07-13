@@ -1,8 +1,11 @@
-# 🎾Tennishare
+# 🎾 Tennishare
 
-## お勧めコートをshare!!しよう
+##  お勧めコートを <strong>Share!!</strong> しましょう 
 
-!(https://gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a)
+<p align="center">
+  <img src="https://gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a" width=70%>  
+</p>　
+
 
 # 概要
 ## このアプリではテニスプレイヤーがお勧めする
