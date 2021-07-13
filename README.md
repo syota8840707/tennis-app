@@ -2,10 +2,7 @@
 
 ##  お勧めコートを <strong>Share!!</strong> しましょう 
 
-<p align="center">
-  <img src="https://gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a" width=70%>  
-</p>　
-
+[![Image from Gyazo](https://i.gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a.jpg)](https://gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a)
 
 # 概要
 ## このアプリではテニスプレイヤーがお勧めする
