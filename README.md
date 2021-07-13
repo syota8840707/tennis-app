@@ -5,10 +5,11 @@
 [![Image from Gyazo](https://i.gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a.jpg)](https://gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a)
 
 # 概要
-## このアプリではテニスプレイヤーがお勧めするテニスコートを共有するアプリです。
-### 普段使っているテニスコートをこのアプリ内で共有してより楽しんでいこう！！
+###  このアプリではテニスプレイヤーがお勧めするテニスコートを共有するアプリです。
 
-## *No Tennis NO Life*
+###  普段使っているテニスコートをこのアプリ内で共有してより楽しんでいこう！！
+
+               _*No Tennis NO Life*_
 
 # 作成背景
 
