@@ -12,15 +12,16 @@
 <br>
 <br>
 # 使用言語・技術
-#### ・ Ruby
-#### ・ Ruby on Rails
-#### ・ Javascript
-#### ・ HTML/CSS
-#### ・ Heroku
-#### ・ GitHub
+#### - Ruby
+#### - Ruby on Rails
+#### - Javascript
+#### - HTML/CSS
+#### - Heroku
+#### - GitHub
 <br>
 <br>  
-## URL
+
+# URL
 
 [https://tennis--app.herokuapp.com/](https://tennis--app.herokuapp.com/)
 
