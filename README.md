@@ -30,7 +30,7 @@
 <p>
 <img src="https://i.gyazo.com/e330f6f9f36cd7124502b4e98c9ff8a6.jpg" width=30%>
 <img src="https://i.gyazo.com/48031387c190ecf4cb6aa0f16e757209.jpg" width=30%  heigh=70px>
-<img src="[![Image from Gyazo](https://i.gyazo.com/f115c0d85482fc06c7c80cd7e534963e.gif)](https://gyazo.com/f115c0d85482fc06c7c80cd7e534963e)" width=30%>
+<img src="https://gyazo.com/f115c0d85482fc06c7c80cd7e534963e" width=30%>
 </p>
   
 ## ユーザー登録画面
