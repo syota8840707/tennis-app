@@ -29,7 +29,7 @@
 ## トプ画面
 |ログイン前                                                                                                                                   
 |----                                                                                                                                |
-|[![Image from Gyazo](https://i.gyazo.com/e330f6f9f36cd7124502b4e98c9ff8a6.jpg)](https://gyazo.com/e330f6f9f36cd7124502b4e98c9ff8a6) |
+|<img src="https://i.gyazo.com/e330f6f9f36cd7124502b4e98c9ff8a6.jpg" width=30%> |
 |                                                                                                                                    |
 |ログイン後                                                                                                                                  
 |----                                                                                                                                |
