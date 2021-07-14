@@ -26,15 +26,12 @@
 [https://tennis--app.herokuapp.com/](https://tennis--app.herokuapp.com/)
 
 # DEMO
-## トップ画面
-|.     ログアウト状態.          |
-|__________________________ |
-|<img src="https://i.gyazo. |
-|com/e330f6f9f36cd7124502b4e|
-| 98c9ff8a6.jpg" width=30%> |
+## トプ画面
+<p>
+<img src="https://i.gyazo.com/e330f6f9f36cd7124502b4e98c9ff8a6.jpg" width=30%>
 <img src="https://i.gyazo.com/48031387c190ecf4cb6aa0f16e757209.jpg" width=30%  heigh=70px>
-<img src="https://gyazo.com/f115c0d85482fc06c7c80cd7e534963e" width=25%>
-
+<a href="https://gyazo.com/f115c0d85482fc06c7c80cd7e534963e"><video alt="Video from Gyazo" width="30%" autoplay muted loop playsinline controls><source src="https://i.gyazo.com/f115c0d85482fc06c7c80cd7e534963e.mp4" type="video/mp4" /></video></a> width=25%>
+</p>
   
 ## ユーザー登録画面
 ## 投稿画面
