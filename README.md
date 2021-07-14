@@ -4,14 +4,24 @@
 
 [![Image from Gyazo](https://i.gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a.jpg)](https://gyazo.com/82cf2be4ded7c54cba56f67fbcccd92a)
 
-# 概要
+# アプリケーション概要
 ###  このアプリではテニスプレイヤーがお勧めするテニスコートを共有するアプリです。
+  楽しさは一人よりも共有した方が倍増するであろう。<br>
+  普段使っているテニスコートをこのアプリ内で共有してより楽しんでいこう！！
 
-###  普段使っているテニスコートをこのアプリ内で共有してより楽しんでいこう！！
+  
+  
+# 使用言語・技術
+#### ・ Ruby
+#### ・ Ruby on Rails
+#### ・ Javascript
+#### ・ HTML/CSS
+#### ・ Heroku
+#### ・ GitHub
 
-  ### *'No Tennis NO Life'*
 
-# 作成背景
+# デプロイ後のURL
+（https://tennis--app.herokuapp.com/）
 
 # README
 
