@@ -20,7 +20,7 @@
 #### ・ GitHub
 <br>
 <br>  
-# デプロイ後のURL
+# URL
 <br>
  https://tennis--app.herokuapp.com/
 <br>
