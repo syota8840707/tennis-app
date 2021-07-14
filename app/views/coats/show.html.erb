@@ -1,35 +1,37 @@
-<div class="show-body">
-  <div class="show-header">
-    <div class="show-hesder-title">
-      <h1>Tennishare</h1>
+<div class="show-body-main">
+  <div class="show-body">
+    <div class="show-header">
+      <div class="show-hesder-title">
+        <h1>Tennishare</h1>
+      </div>
+      <% if user_signed_in? %>
+          <% if current_user.id == @coat.user_id %>
+          <div class="show-header-contents">
+            <%= "Hello!! 👤 #{@coat.user.nickname} さん" %>
+          </div>
+          <% else %>
+          <div class="show-header-contents">
+            <%= "👤 #{@coat.user.nickname} さんの投稿" %>
+          </div>
+          <% end %>
+      <% else %>
+      <div class="show-header-contents">
+        <%= "👤 #{@coat.user.nickname} さんの投稿" %>
+      </div>
+      <% end %>
+      <ul class="show-header-list">
+        <li><%= "テニス歴 #{@coat.user.tennis_year} 年" %></li>
+        <li><%= "投稿件数 #{@coats.count(:id)} 件" %></li>
+      </ul>
     </div>
-    <% if user_signed_in? %>
-        <% if current_user.id && @coat.user_id %>
-         <div class="show-header-contents">
-          <%= "Hello!! 👤 #{@coat.user.nickname} さん" %>
-         </div>
-         <% else %>
-        <div class="show-header-contents">
-          <%= "👤 #{@coat.user.nickname} さんの投稿" %>
-        </div>
-        <% end %>
-    <% else %>
-    <div class="show-header-contents">
-       <%= "👤 #{@coat.user.nickname} さんの投稿" %>
+    <%= render "coats/show" %>
+    <div class="map-main hidden" id="map-main-js">
+      <div class="coat-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.012100055269!2d139.19994121486855!3d35.38015588026565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019a7fe14ee110f%3A0x47427094161f2d82!2z44Kr44Or44OB44Oj44O844OR44O844Kv!5e0!3m2!1sja!2sjp!4v1626246272918!5m2!1sja!2sjp" width="918" height="515" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-    <% end %>
-    <ul class="show-header-list">
-      <li><%= "テニス歴 #{@coat.user.tennis_year} 年" %></li>
-      <li><%= "投稿件数 #{@coats.count(:id)} 件" %></li>
-    </ul>
+    </div>
+    <%# <div class="show-footer">
+    <%= render partial: 'coat', collection: @coats %>
+    <%# </div>  %>
   </div>
-  <%= render "coats/show" %>
-  <div class="map-main hidden" id="map-main-js">
-     <div class="coat-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.0119237099602!2d139.19994121452893!3d35.38016025403342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019a7fe14ee110f%3A0x47427094161f2d82!2z44Kr44Or44OB44Oj44O844OR44O844Kv!5e0!3m2!1sja!2sjp!4v1625799156917!5m2!1sja!2sjp" width="1047" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-   </div>
-  </div>
-  <%# <div class="show-footer">
-  <%= render partial: 'coat', collection: @coats %>
-  <%# </div>  %>
 </div>

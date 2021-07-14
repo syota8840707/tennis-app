@@ -1,6 +1,7 @@
 body {
     display: block;
     margin: 0px;
+    background-color: #e6f0f0;
 }
 
 #home {
@@ -30,8 +31,7 @@ h1,h2,h3,h4,h5,h6,p {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  width: 90vw;
-  margin-left: auto;
+  width: 100%;
 }
 
 
@@ -39,6 +39,8 @@ h1,h2,h3,h4,h5,h6,p {
 
 .main-home {
   background-color: #e6f0f0;
+  width: 1040px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -51,13 +53,13 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .heading {
- font-size: 30px;
+ font-size: 27px;
  width: 70%;
  padding: 10px 50px;
  color: yellow;
  background-color: #e6f0f0;
  transform: skewY(344deg);
- position: absolute; left: 49px; top: -30px;
+ position: absolute; left: -40x; top: -30px;
 
 }
 
@@ -68,10 +70,12 @@ h1,h2,h3,h4,h5,h6,p {
 
 .nav-left {
 width: 20%;
+position: relative;
 }
 
 .nav-right {
 width: 25%;
+position: relative;
 }
 .all-list {
   margin: 2px;
@@ -82,7 +86,10 @@ width: 25%;
   font-size: 15px;
   background-color: #e6f0f0;
   padding: 10px;
-  position: absolute; top: 14%; right: 14%;
+  position: absolute; 
+    top: 163%;
+    right: -8%;
+    left: -12%;
 }
 
 .hidden{
@@ -103,7 +110,7 @@ width: 25%;
   font-size: 15px;
   background-color: #e6f0f0;
   padding: 10px;
-  position: absolute; top: 14%; right: 4%;
+  position: absolute; top: 165%; right: 4%;
 }
 
 .login {

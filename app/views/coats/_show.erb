@@ -28,22 +28,28 @@
           <li class="side-map" id="map-js">マップ表示</li>
           <li class="side-list" id="menu-js">Menu</li>
         <% if user_signed_in? %>
-          <%  if current_user.id && @coat.user_id %>
+          <%  if current_user.id == @coat.user_id %>
             <ul class="sideber-js hidden" id="side-js">
-            <li><%= link_to '新規投稿', new_coat_path , class: "side-list-js" %></li> 
-            <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "side-list-js"%></li> 
-            <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>  
-            <li><%= link_to '編集', edit_coat_path , class: "side-list-js" %></li>
-            <li><%= link_to '削除', coat_path , method: :delete, class: "side-list-js" %></li> 
+              <li><%= link_to '新規投稿', new_coat_path , class: "side-list-js" %></li> 
+              <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "side-list-js"%></li> 
+              <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>  
+              <li><%= link_to '編集', edit_coat_path , class: "side-list-js" %></li>
+              <li><%= link_to '削除', coat_path , method: :delete, class: "side-list-js" %></li> 
+            </ul> 
+            <% else %>
+             <ul class="sideber-js hidden" id="side-js">
+              <li><%= link_to '新規投稿', new_coat_path , class: "side-list-js" %></li> 
+              <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "side-list-js"%></li> 
+              <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>  
             </ul> 
             <% end %>
-      <% else %> 
-        <ul class="sideber-js hidden" id="side-js">
-        <li><%= link_to 'ログイン', new_user_session_path, class: "side-list-js" %></li>
-        <li><%= link_to '新規登録', new_user_registration_path, class: "side-list-js" %></li>
-        <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>
-        </ul>
-      <% end %>
+        <% else %> 
+          <ul class="sideber-js hidden" id="side-js">
+          <li><%= link_to 'ログイン', new_user_session_path, class: "side-list-js" %></li>
+          <li><%= link_to '新規登録', new_user_registration_path, class: "side-list-js" %></li>
+          <li><%= link_to 'トップページ', root_path , class: "side-list-js" %></li>
+          </ul>
+        <% end %>
         </ul>
       </div>
       <div class="show-info">
