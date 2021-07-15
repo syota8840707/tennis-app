@@ -61,8 +61,9 @@ padding-top: 5px;
 height: 35%
 }
 
-.message-text {
-  
+.messages-text {
+  border-style: outset;
+  width: 50%;
 }
 
 .message-coat {
