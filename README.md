@@ -32,7 +32,7 @@
 <img src="https://i.gyazo.com/48031387c190ecf4cb6aa0f16e757209.jpg" width=30%  heigh=70px>
 <video alt="Video from Gyazo" width="30%" autoplay muted loop playsinline controls><source src="https://i.gyazo.com/f115c0d85482fc06c7c80cd7e534963e.mp4" type="video/mp4" /></video></a> 
 </p>
-
+[https://gyazo.com/349b7996d3c3ea0e2dfd7bfb099d3cad](url)
 ## ユーザー登録画面
 <p>
  
