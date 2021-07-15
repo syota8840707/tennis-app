@@ -61,14 +61,21 @@ padding-top: 5px;
 height: 35%
 }
 
+.comment-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
 .messages-text {
   border-style: outset;
-  width: 50%;
+  width: 83%;
 }
 
 .message-coat {
-  width: 20%;
-  height: 20%;
+  padding: 5px 15px;
+  height: 75%;
 }
 
 /* 下記はmain-rightの部分 */

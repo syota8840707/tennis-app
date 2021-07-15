@@ -4,11 +4,13 @@
         <%= image_tag @coat.image, class: "show-image-tag" %>
       </div>
       <div class="show-coment">
-         <h3>コメント欄</h3>
-          <%= form_with model: @message do |f| %>
-            <%= f.text_field :message, class:"messages-text" %>
-            <%= f.submit '送信' %>
-          <% end %>
+            <div class="comment-top">
+              <h3>コメント欄</h3>
+              <%= form_with model: @message do |f| %>
+                <%= f.text_field :message, id:"content" ,class:"messages-text" %>
+                <%= f.submit '送信' %>
+              <% end %>
+            </div>
           <div id="messages", class="message-coat">
             <% @messages.reverse_each do |message| %>
               <p><%= message.message %></p>
