@@ -33,12 +33,10 @@
 <video alt="Video from Gyazo" width="30%" autoplay muted loop playsinline controls><source src="https://i.gyazo.com/f115c0d85482fc06c7c80cd7e534963e.mp4" type="video/mp4" /></video></a> 
 </p>
 
-[https://gyazo.com/349b7996d3c3ea0e2dfd7bfb099d3cad](https://gyazo.com/349b7996d3c3ea0e2dfd7bfb099d3cad)
-
 
 ## ユーザー登録画面
 <p>
- 
+<img src="https://i.gyazo.com/b475b7ad3c7fa91ed79178f2ca9d041e.png" width=45%> 
 </p>
 ## 投稿画面
 ## 
