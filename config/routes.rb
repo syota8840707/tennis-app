@@ -4,6 +4,6 @@ Rails.application.routes.draw do
 
   root to: "coats#index"
   resources :coats do
-    resources :messages, only: [:create]
+    resources :messages, only: :create
   end
 end
