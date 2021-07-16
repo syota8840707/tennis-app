@@ -80,7 +80,6 @@ height: 35%
 .main-right-top {
   height: 60%;
   display: flex;
-  position: relative;
 }
 
 .show-list {
@@ -173,4 +172,6 @@ height: 35%
 /* showのfooter部分 */
 .show-footer {
   display: flex;
+  flex-wrap: wrap;
+}
 }

@@ -2,15 +2,13 @@
 
 .footer {
   height:  70vh;
-  width: 90vw;
   background-color: #e6f0f0;
   margin: 10px 0 10px auto;
   display: flex ;
   flex-wrap: wrap;
   overflow: scroll;
   position: absolute;
-    top: 28vh;
-    right: 3px;
+    top: 29%;
 }
 
 .card-title {
@@ -28,8 +26,8 @@
 
 .coats-card {
   display: flex;
-  width: 48%;
-  height: 30%;
+  width: 510px;
+  height: 150px;
   margin: 5px;
   background-color: #ffffff;
 
