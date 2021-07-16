@@ -27,8 +27,8 @@
           <li class="show-list-sav"> <%= "コートの面数 : #{@coat.number.name}" %>
         </ul>
         <ul class="show-sideber">
-          <li class="side-map" id="map-js">マップ表示</li>
-          <li class="side-list" id="menu-js">Menu</li>
+          <li class="side-map" id="map-js">MAP</li>
+          <li class="side-list" id="menu-js">MENU</li>
         <% if user_signed_in? %>
           <%  if current_user.id == @coat.user_id %>
             <ul class="sideber-js hidden" id="side-js">
