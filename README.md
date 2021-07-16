@@ -25,7 +25,7 @@
 
 [https://tennis--app.herokuapp.com/](https://tennis--app.herokuapp.com/)
 
-<br>
+
 # 利用方法  
 ## トップページ
 #### ☆ トップページより新規登録・ログイン可能。
