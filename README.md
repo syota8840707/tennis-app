@@ -66,12 +66,13 @@
 #### - テニス好きなユーザーと繋がりたい。
 #### - 普段使っているコートの魅力を伝えたい。
 #### - 使用したことのないコート魅力を知りたい。
-<br>
+
+
 # README
 
 # テーブル設計
 
-##usersテーブル
+## usersテーブル
 
 | Column                      | Type        | Options                        |
 | --------------------------- | ----------- | ------------------------------ |
@@ -83,7 +84,7 @@
 -has_many   :coats
 -has_many   :comments
 
-##coatsテーブル
+## coatsテーブル
 
 | Column                      | Type        | Options                        |
 | --------------------------- | ----------- | ------------------------------ |
@@ -96,11 +97,11 @@
 | city                        | string      | null: false                    |
 | address                     | string      | null: false                    |
 | user                        | references  | null: false, foreign_key: true |
-##Association
+## Association
 -belongs_to :user
 -has_many   :comment
 
-##messagesテーブル
+## messagesテーブル
 
 | Column                      | Type        | Options                        |
 | --------------------------- | ----------- | ------------------------------ |
