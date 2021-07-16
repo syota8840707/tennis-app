@@ -21,8 +21,7 @@ class CoatsController < ApplicationController
   end
 
   def show
-    @coats = Coat.order('created_at DESC')
-    @massege = Message.new
+
     @messages = @coat.messages.includes(:user)
   end
 

@@ -6,7 +6,7 @@
       <div class="show-coment">
             <div class="comment-top">
               <h3>コメント欄</h3>
-              <%= form_with model: @message do |f| %>
+              <%= form_with(model: [@coat, @message]) do |f| %>
                 <%= f.text_field :message, id:"content" ,class:"messages-text" %>
                 <%= f.submit '送信' %>
               <% end %>
