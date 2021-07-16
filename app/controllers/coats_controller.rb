@@ -22,7 +22,7 @@ class CoatsController < ApplicationController
 
   def show
     @coats = Coat.all
-    @massege = Message.new
+    @message = Message.new
     @messages = @coat.messages.includes(:user)
   end
 
