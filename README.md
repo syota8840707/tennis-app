@@ -38,6 +38,7 @@
 <img src="https://i.gyazo.com/7c6e791852f46d87c5c0959f99aafd66.gif" width=30%>)
 </p>
   
+  [![Image from Gyazo](https://i.gyazo.com/7c6e791852f46d87c5c0959f99aafd66.gif)](https://gyazo.com/7c6e791852f46d87c5c0959f99aafd66)
 ## ユーザー登録画面
 #### ☆ 新規登録画面・ログイン画面。
 
