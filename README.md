@@ -43,6 +43,7 @@
 #### ☆ 新規登録画面・ログイン画面。
 
 <p>
+<img src="https://user-images.githubusercontent.com/84270194/126056753-d57c1533-4464-446b-8d83-cd1bfa9bbd7e.gif" width=45%> 
 <img src="https://i.gyazo.com/b475b7ad3c7fa91ed79178f2ca9d041e.png" width=45%> 
 </p>
  
@@ -50,6 +51,10 @@
 #### ☆ ログインユーザーのみ投稿可能。
 #### ☆ トップページと詳細ページより遷移が可能。
 #### ☆ 全て記入して登録可能。
+
+<p>
+<img src="" width=45%> 
+</p>
  
 ## 詳細画面
 #### ☆ 一覧表より選択したコートの詳細画面が表示される。
@@ -57,6 +62,10 @@
 #### ☆ 投稿者本人であれば、「MENU」クリックより編集・削除が可能。
 #### ☆ 「MAP」クリックよりマップを表示する。
 
+<p>
+<img src="https://user-images.githubusercontent.com/84270194/126056717-34b1cfea-01a1-4162-bec1-287d0e526a5a.gif" width=45%>
+<img src="https://user-images.githubusercontent.com/84270194/126056737-10676ee7-82bd-4722-b291-867c960a8fac.gif" width=45%>
+</p>
 
 # 課題解決
 #### 使用したいテニスコートを検索する際に検索回数を減らしたいと考え、一つのアプリにまとめることで解消できると考えました。
