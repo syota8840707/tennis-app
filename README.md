@@ -39,7 +39,7 @@
 f" width=30%>
 </p>
   
-  [![Image from Gyazo](https://i.gyazo.com/7c6e791852f46d87c5c0959f99aafd66.gif)](https://gyazo.com/7c6e791852f46d87c5c0959f99aafd66)
+  ![7c6e791852f46d87c5c0959f99aafd66](https://user-images.githubusercontent.com/84270194/126053860-7513a6a7-c2a4-4554-b4fa-2b126db3bc70.gif)
 ## ユーザー登録画面
 #### ☆ 新規登録画面・ログイン画面。
 
