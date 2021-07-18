@@ -36,7 +36,7 @@
 <p>
 <img src="https://i.gyazo.com/e330f6f9f36cd7124502b4e98c9ff8a6.jpg" width=33% height=230px>
 <img src="https://i.gyazo.com/48031387c190ecf4cb6aa0f16e757209.jpg" width=33%  height=230px>
-<img src="https://user-images.githubusercontent.com/84270194/126053860-7513a6a7-c2a4-4554-b4fa-2b126db3bc70.gif" width=33% height=230px>
+<img src="https://user-images.githubusercontent.com/84270194/126058431-f405d8f5-0f34-4b53-b47f-48bdbe5ed80c.gif" width=33% height=230px>
 </p>
   
 ## ユーザー登録画面
