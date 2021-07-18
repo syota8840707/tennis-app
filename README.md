@@ -28,14 +28,15 @@
 
 # 利用方法  
 ## トップページ
+#### ☆ 登録の有無でユーザー名の表記が変わる。
 #### ☆ トップページより新規登録・ログイン可能。
 #### ☆ 「表示リスト」より一覧表を表示できる。
 #### ☆ 非同期通信活用。
 
 <p>
-<img src="https://i.gyazo.com/e330f6f9f36cd7124502b4e98c9ff8a6.jpg" width=33% height=200px>
-<img src="https://i.gyazo.com/48031387c190ecf4cb6aa0f16e757209.jpg" width=33%  height=120px>
-<img src="https://user-images.githubusercontent.com/84270194/126053860-7513a6a7-c2a4-4554-b4fa-2b126db3bc70.gif" width=33% height=200px>
+<img src="https://i.gyazo.com/e330f6f9f36cd7124502b4e98c9ff8a6.jpg" width=33% height=230px>
+<img src="https://i.gyazo.com/48031387c190ecf4cb6aa0f16e757209.jpg" width=33%  height=230px>
+<img src="https://user-images.githubusercontent.com/84270194/126053860-7513a6a7-c2a4-4554-b4fa-2b126db3bc70.gif" width=33% height=230px>
 </p>
   
 ## ユーザー登録画面
