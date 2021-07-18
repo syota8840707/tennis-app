@@ -76,6 +76,7 @@ height: 35%
 .message-coat {
   padding: 5px 15px;
   height: 75%;
+  overflow: scroll;
 }
 
 /* 下記はmain-rightの部分 */
