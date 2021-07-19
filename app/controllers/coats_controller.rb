@@ -3,7 +3,6 @@ class CoatsController < ApplicationController
   before_action :set_coat, only: [:show, :edit, :update, :destroy]
   before_action :move_to_index, only: [:edit, :destroy]
   def index
-    @costs = Coat.all
     @coats = Coat.order('created_at DESC')
   end
 
