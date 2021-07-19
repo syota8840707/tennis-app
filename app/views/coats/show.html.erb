@@ -21,7 +21,7 @@
       <% end %>
       <ul class="show-header-list">
         <li><%= "テニス歴 #{@coat.user.tennis_year} 年" %></li>
-        <li><%= "投稿件数 #{@coats.count(:id)} 件" %></li>
+        <li><%= "投稿件数 #{@count.count(@coat.user_id)} 件" %></li>
       </ul>
     </div>
     <%= render "coats/show" %>
