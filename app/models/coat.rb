@@ -10,7 +10,7 @@ class Coat < ApplicationRecord
   has_many :messages, dependent: :destroy
 
   with_options presence: true do
-    validates :name, :info, :image, :city, :address, :user_id
+    validates :image, :name, :city, :address, :user_id
     validates :prefecture_id, :start_time_id, :finish_time_id,
               :number_id, numericality: { other_than: 1, message: 'のセレクタから選択して下さい' }
   end
