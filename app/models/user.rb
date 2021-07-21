@@ -9,7 +9,8 @@ class User < ApplicationRecord
 
   with_options presence: true do
     validates :nickname
-    validates :tennis_year, format: { with: /\A[0-9]+\z/i, message: 'は半角数字で記入して下さい' }
+    validates :tennis_year, format: { with: /\A[0-9]+\z/i, message: 'は半角数字で記入して下さい' },
+                            numericality: { only_integer: true, message: 'は半角数字で記入して下さい' }
   end
-  validates :password, :password_confirmation, format: { with: /\A(?=.*?[a-z])(?=.*?\d)[a-z\d]+\z/i }
+  validates :password, :password_confirmation, format: { with: /\A(?=.*?[a-z])(?=.*?\d)[a-z\d]+\z/i, message: 'は半角英数字で記入して下さい' }
 end
