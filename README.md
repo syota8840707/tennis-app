@@ -108,7 +108,7 @@
 | email                       | string      | null: false                    |
 | encrypted_password          | string      | null: false                    |
 | tennis_year                 | integer     | null: false                    |
-##Association
+## Association
 -has_many   :coats
 -has_many   :comments
 
