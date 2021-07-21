@@ -2,7 +2,7 @@
   <div class="coats-main">
     <h2 class="coats-title">コートの情報を入力</h2>
     <%= form_with model: @coat, local: true do |f| %>
-
+    <%= render 'shared/error_messages', model: f.object %>
     <div class="img-upload">
       <div class="weight-bold-text">
         コートの写真

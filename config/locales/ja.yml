@@ -1,0 +1,16 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        nickname: ニックネーム
+        tennis_year: テニス歴
+      coat:
+        name: コート名
+        info: コートの説明
+        image: 写真
+        prefecture_id: 都道府県
+        city: 市区町村
+        address: 番地
+        start_time_id: 利用開始時間
+        finish_time_id: 利用終了時間
+        number_id: コート面数
