@@ -1,7 +1,7 @@
 class MessagesController < ApplicationController
   def create
     @message = Message.new(message_params)
-    ActionCable.server.broadcast 'message_channel', content: @message if @message.save
+    ActionCable.server.broadcast 'message_channel', content: @message, username: @message.user.nickname if @message.save
   end
 
   private
