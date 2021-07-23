@@ -21,8 +21,7 @@ class CoatsController < ApplicationController
 
   def show
     @count = Coat.pluck(:user_id)
-    @user = User.find(params[:id])
-    @coats = @user.coats.order('created_at DESC')
+    @coats = @coat.user.coats.order('created_at DESC')
     @message = Message.new
     @messages = @coat.messages.includes(:user)
   end
