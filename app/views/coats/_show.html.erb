@@ -13,7 +13,7 @@
             </div>
           <div id="messages", class="message-coat">
             <% @messages.reverse_each do |message| %>
-              <p><%= message.message %></p>
+              <p><%= message.user.nickname %> : <%= message.message %></p>
             <% end %>
           </div>
       </div>
