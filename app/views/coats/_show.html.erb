@@ -4,6 +4,7 @@
         <%= image_tag @coat.image, class: "show-image-tag" %>
       </div>
       <div class="show-coment">
+          <% if user_signed_in? %>
             <div class="comment-top">
               <h3>コメント欄</h3>
               <%= form_with(model: [@coat, @message]) do |f| %>
@@ -11,6 +12,11 @@
                 <%= f.submit '送信' %>
               <% end %>
             </div>
+          <% else %>
+            <div class="comment-top">
+            <h3>ログインしてコメントしよう！！</h3>
+            </div>
+          <% end %>
           <div id="messages", class="message-coat">
             <% @messages.reverse_each do |message| %>
               <p><%= message.user.nickname %> : <%= message.message %></p>
