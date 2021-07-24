@@ -52,10 +52,11 @@
 #### ☆ 一覧表より選択したコートの詳細画面が表示される。
 #### ☆ 投稿者情報が上記に表示される。
 #### ☆ 投稿者本人であれば、「MENU」クリックより編集・削除が可能。
+#### ☆ ログインユーザーはコメント欄に記入できる。
 #### ☆ 「MAP」クリックよりマップを表示する。
 
 <p>
-<img src="https://user-images.githubusercontent.com/84270194/126056717-34b1cfea-01a1-4162-bec1-287d0e526a5a.gif" width=45%>
+<img src="https://user-images.githubusercontent.com/84270194/126855198-78f49ab7-43d5-4c42-8df8-c12fe2c84e71.gif" width=45%>
 <img src="https://user-images.githubusercontent.com/84270194/126056737-10676ee7-82bd-4722-b291-867c960a8fac.gif" width=45%>
 </p>
 
